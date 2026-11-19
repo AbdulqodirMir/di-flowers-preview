@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DI FLOWERS — Цветы и подарки в Ташкенте</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="scene"></canvas>
+<div id="vignette"></div>
+
+<div id="hint">листайте<span class="hint-arrow">↓</span></div>
+
+<div id="hero-title">
+  <div class="kicker">ЦВЕТЫ &nbsp;·&nbsp; ПОДАРКИ &nbsp;·&nbsp; ТАШКЕНТ</div>
+  <h1>DI FLOWERS</h1>
+</div>
+
+<div id="hero-track"></div>
+
+<main>
+  <section class="intro">
+    <p class="lead">Каждый букет вырастает здесь —<br>из земли, под светом, по лепестку.</p>
+    <p class="sub">Свежие цветы каждое утро. Сборка под ваш повод. Доставка по Ташкенту в день заказа.</p>
+  </section>
+
+  <section class="catalog">
+    <h2>Каталог</h2>
+    <div class="cards">
+      <a class="card" href="https://www.instagram.com/di.flowers.tashkent/" target="_blank" rel="noopener">
+        <img src="roses.jpg" alt="Розы">
+        <div class="card-label">Розы</div>
+        <div class="card-sub">классика, которая всегда работает</div>
+      </a>
+      <a class="card" href="https://www.instagram.com/di.flowers.tashkent/" target="_blank" rel="noopener">
+        <img src="peonies.jpg" alt="Пионы">
+        <div class="card-label">Пионы</div>
+        <div class="card-sub">сезонная нежность</div>
+      </a>
+      <a class="card" href="https://www.instagram.com/di.flowers.tashkent/" target="_blank" rel="noopener">
+        <img src="tulips.jpg" alt="Тюльпаны">
+        <div class="card-label">Тюльпаны</div>
+        <div class="card-sub">свежее настроение</div>
+      </a>
+      <a class="card" href="https://www.instagram.com/di.flowers.tashkent/" target="_blank" rel="noopener">
+        <img src="boxes.jpg" alt="Композиции в коробках">
+        <div class="card-label">Коробки</div>
+        <div class="card-sub">подарок без повода</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="visit">
+    <h2>Мы рядом</h2>
+    <div class="facts">
+      <div class="fact"><span>Адрес</span>Мирзо-Улугбек, Зиёллар 10</div>
+      <div class="fact"><span>Часы</span>каждый день, 9:00 — 00:00</div>
+      <div class="fact"><span>Телефон</span><a href="tel:+998941918115">+998 94 191 81 15</a></div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Заказать букет</h2>
+    <p class="sub">Напишите нам — соберём под ваш повод и бюджет.</p>
+    <div class="cta-buttons">
+      <a class="btn primary" href="tel:+998941918115">Позвонить</a>
+      <a class="btn" href="https://www.instagram.com/di.flowers.tashkent/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </section>
+
+  <footer>DI FLOWERS — Ташкент · концепт сайта</footer>
+</main>
+
+<script src="three.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
